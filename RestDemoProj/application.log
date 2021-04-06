@@ -1,0 +1,212 @@
+2021-04-06 11:41:10,035  INFO [main] TC_002_basistests:38 - ***********getting all users***********
+2021-04-06 11:41:12,115 DEBUG [main] BasicClientConnectionManager:161 - Get connection for route {}->http://localhost:3000
+2021-04-06 11:41:12,136 DEBUG [main] DefaultClientConnectionOperator:177 - Connecting to localhost:3000
+2021-04-06 11:41:12,209 DEBUG [main] RequestAddCookies:123 - CookieSpec selected: ignoreCookies
+2021-04-06 11:41:12,220 DEBUG [main] RequestAuthCache:77 - Auth cache not set in the context
+2021-04-06 11:41:12,232 DEBUG [main] RequestTargetAuthentication:80 - Target auth state: UNCHALLENGED
+2021-04-06 11:41:12,237 DEBUG [main] RequestProxyAuthentication:89 - Proxy auth state: UNCHALLENGED
+2021-04-06 11:41:12,239 DEBUG [main] DefaultHttpClient:682 - Attempt 1 to execute request
+2021-04-06 11:41:12,241 DEBUG [main] DefaultClientConnection:274 - Sending request: GET /users HTTP/1.1
+2021-04-06 11:41:12,243 DEBUG [main] wire:73 -  >> "GET /users HTTP/1.1[\r][\n]"
+2021-04-06 11:41:12,246 DEBUG [main] wire:73 -  >> "Accept: */*[\r][\n]"
+2021-04-06 11:41:12,249 DEBUG [main] wire:73 -  >> "Host: localhost:3000[\r][\n]"
+2021-04-06 11:41:12,250 DEBUG [main] wire:73 -  >> "Connection: Keep-Alive[\r][\n]"
+2021-04-06 11:41:12,251 DEBUG [main] wire:73 -  >> "User-Agent: Apache-HttpClient/4.5.3 (Java/15.0.2)[\r][\n]"
+2021-04-06 11:41:12,253 DEBUG [main] wire:73 -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2021-04-06 11:41:12,257 DEBUG [main] wire:73 -  >> "[\r][\n]"
+2021-04-06 11:41:12,260 DEBUG [main] headers:278 - >> GET /users HTTP/1.1
+2021-04-06 11:41:12,266 DEBUG [main] headers:281 - >> Accept: */*
+2021-04-06 11:41:12,267 DEBUG [main] headers:281 - >> Host: localhost:3000
+2021-04-06 11:41:12,270 DEBUG [main] headers:281 - >> Connection: Keep-Alive
+2021-04-06 11:41:12,272 DEBUG [main] headers:281 - >> User-Agent: Apache-HttpClient/4.5.3 (Java/15.0.2)
+2021-04-06 11:41:12,279 DEBUG [main] headers:281 - >> Accept-Encoding: gzip,deflate
+2021-04-06 11:41:12,341 DEBUG [main] wire:73 -  << "HTTP/1.1 200 OK[\r][\n]"
+2021-04-06 11:41:12,344 DEBUG [main] wire:73 -  << "X-Powered-By: Express[\r][\n]"
+2021-04-06 11:41:12,345 DEBUG [main] wire:73 -  << "Vary: Origin, Accept-Encoding[\r][\n]"
+2021-04-06 11:41:12,346 DEBUG [main] wire:73 -  << "Access-Control-Allow-Credentials: true[\r][\n]"
+2021-04-06 11:41:12,347 DEBUG [main] wire:73 -  << "Cache-Control: no-cache[\r][\n]"
+2021-04-06 11:41:12,348 DEBUG [main] wire:73 -  << "Pragma: no-cache[\r][\n]"
+2021-04-06 11:41:12,352 DEBUG [main] wire:73 -  << "Expires: -1[\r][\n]"
+2021-04-06 11:41:12,353 DEBUG [main] wire:73 -  << "X-Content-Type-Options: nosniff[\r][\n]"
+2021-04-06 11:41:12,354 DEBUG [main] wire:73 -  << "Content-Type: application/json; charset=utf-8[\r][\n]"
+2021-04-06 11:41:12,355 DEBUG [main] wire:73 -  << "ETag: W/"52a-BAsctjLCOpSwdU/K/0rEW8hROFA"[\r][\n]"
+2021-04-06 11:41:12,356 DEBUG [main] wire:73 -  << "Content-Encoding: gzip[\r][\n]"
+2021-04-06 11:41:12,356 DEBUG [main] wire:73 -  << "Date: Tue, 06 Apr 2021 06:11:12 GMT[\r][\n]"
+2021-04-06 11:41:12,358 DEBUG [main] wire:73 -  << "Connection: keep-alive[\r][\n]"
+2021-04-06 11:41:12,358 DEBUG [main] wire:73 -  << "Keep-Alive: timeout=5[\r][\n]"
+2021-04-06 11:41:12,359 DEBUG [main] wire:73 -  << "Transfer-Encoding: chunked[\r][\n]"
+2021-04-06 11:41:12,360 DEBUG [main] wire:73 -  << "[\r][\n]"
+2021-04-06 11:41:12,361 DEBUG [main] DefaultClientConnection:259 - Receiving response: HTTP/1.1 200 OK
+2021-04-06 11:41:12,362 DEBUG [main] headers:262 - << HTTP/1.1 200 OK
+2021-04-06 11:41:12,363 DEBUG [main] headers:265 - << X-Powered-By: Express
+2021-04-06 11:41:12,364 DEBUG [main] headers:265 - << Vary: Origin, Accept-Encoding
+2021-04-06 11:41:12,364 DEBUG [main] headers:265 - << Access-Control-Allow-Credentials: true
+2021-04-06 11:41:12,375 DEBUG [main] headers:265 - << Cache-Control: no-cache
+2021-04-06 11:41:12,376 DEBUG [main] headers:265 - << Pragma: no-cache
+2021-04-06 11:41:12,377 DEBUG [main] headers:265 - << Expires: -1
+2021-04-06 11:41:12,377 DEBUG [main] headers:265 - << X-Content-Type-Options: nosniff
+2021-04-06 11:41:12,378 DEBUG [main] headers:265 - << Content-Type: application/json; charset=utf-8
+2021-04-06 11:41:12,379 DEBUG [main] headers:265 - << ETag: W/"52a-BAsctjLCOpSwdU/K/0rEW8hROFA"
+2021-04-06 11:41:12,379 DEBUG [main] headers:265 - << Content-Encoding: gzip
+2021-04-06 11:41:12,380 DEBUG [main] headers:265 - << Date: Tue, 06 Apr 2021 06:11:12 GMT
+2021-04-06 11:41:12,381 DEBUG [main] headers:265 - << Connection: keep-alive
+2021-04-06 11:41:12,381 DEBUG [main] headers:265 - << Keep-Alive: timeout=5
+2021-04-06 11:41:12,382 DEBUG [main] headers:265 - << Transfer-Encoding: chunked
+2021-04-06 11:41:12,394 DEBUG [main] DefaultHttpClient:509 - Connection can be kept alive for 5000 MILLISECONDS
+2021-04-06 11:41:12,437 DEBUG [main] RequestSpecificationImpl$RestAssuredHttpBuilder:545 - Parsing response as: application/json; charset=utf-8
+2021-04-06 11:41:12,439 DEBUG [main] wire:73 -  << "a[\r][\n]"
+2021-04-06 11:41:12,440 DEBUG [main] wire:73 -  << "[0x1f][0x8b][0x8][0x0][0x0][0x0][0x0][0x0][0x0][\n]"
+2021-04-06 11:41:12,441 DEBUG [main] wire:73 -  << "[\r][\n]"
+2021-04-06 11:41:12,441 DEBUG [main] wire:73 -  << "10e[\r][\n]"
+2021-04-06 11:41:12,442 DEBUG [main] wire:73 -  << "[0xbd][0x92]Kn[0xc3] [0x10][0x86][0xf7]9[0x5][0xa2][0xdb][0xa8][\n]"
+2021-04-06 11:41:12,444 DEBUG [main] wire:87 -  << "/[0xe7]q[0x84]\![0xca][0x2]aTHl@~I[0xa8][0xea][0xdd]K[0xdd][0xa0]4[0xd4][0xb6][0xec][0x8d][0x17][0xb6]4[0xff]0[0xdf]|X[0xbe]l[0x0][0xf8][0xc][0xf][0x0]P[0xe7][0xf0][0x4][0xd0][0xf6][0xb7]0[0xbc][0x94][0xa1][0x84]g[0xab][0xc]|d[0x85][0x15][0xbc][0xd1][0xd6][0xfc][0xe4][0xda][0xe4][0x9a][0xc7][0x86]S[0xd6][0xf4][0xa7][0x11]&[0x94]e[0xfb][0xc3]q[0x17][[0xc2][0xb6]U-[0xeb][0xd0][0xbc][0xf4]A[0x88][0xce][0xbc][0x8b][0x93][0xa1][0xaa]e![0x8d]nK[0xd8][0x7][0xd7][0xf0][0xfe][0xda]&N8q[0xba][0xeb]r[0xb1]R6[0xa9][0xe4][0xbc]j[0xac]Y$E[0x12][0xa9][0xba][0xd4][0x8d]Z[0xa0][0xc5][0xe8][0x9c]o%[0xde][0xe6]J=[0x87][0xa1]p[0xff][0xd6]Q[0x82]1f[0x8c][0x12][0x98]hw[0xda]p[0xef][0x87][0xbc][0x95][0xcf]c[0xdc]_[0x98][0xad][0xbd]0[{[0xe1]~[0xed][0x85][0x87]da$|[0xc8]j[0xe4]Oz[0x19][0x87]G8[0x2]p[0xf6]y[0xf4]/[0xe1][0xc6][0xdd]+[0x1][0xed][0xc6][0x10][0x9d][0x16][0xf7]!Dp+[0xb9][0xf1][0x9][0x6][0xbd][0x8f][0x82]*;[0xc]r[0xb6][0xe0][0xe9][0x85][0x10][0x9e][0xe0][0xf0]N[0xcf][0x17]"S[0xa0][;[[0x88]>8[0x9b][0xeb]7H[0x8d]*V*[0x5][0x0][0x0]"
+2021-04-06 11:41:12,445 DEBUG [main] wire:73 -  << "[\r][\n]"
+2021-04-06 11:41:12,445 DEBUG [main] wire:73 -  << "0[\r][\n]"
+2021-04-06 11:41:12,449 DEBUG [main] wire:73 -  << "[\r][\n]"
+2021-04-06 11:41:12,451 DEBUG [main] RequestSpecificationImpl$RestAssuredHttpBuilder:548 - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2021-04-06 11:41:15,633  INFO [main] TC_002_basistests:59 - cookiee foundnull
+2021-04-06 11:41:15,658  INFO [main] TC_002_basistests:15 - ***********getting response body***********
+2021-04-06 11:41:15,693 DEBUG [main] BasicClientConnectionManager:200 - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@20011bf
+2021-04-06 11:41:15,693 DEBUG [main] BasicClientConnectionManager:225 - Connection can be kept alive for 5000 MILLISECONDS
+2021-04-06 11:41:15,696  INFO [main] TC_002_basistests:17 - response bbody is :[
+  {
+    "id": 1,
+    "name": "John",
+    "location": "india",
+    "phone": "1234567890",
+    "courses": [
+      "Java",
+      "selenium"
+    ]
+  },
+  {
+    "id": 2,
+    "name": "kim",
+    "location": "india",
+    "phone": "1234567690",
+    "courses": [
+      "pyhton",
+      "selenium"
+    ]
+  },
+  {
+    "id": 3,
+    "name": "smith",
+    "location": "india",
+    "phone": "154234567890",
+    "courses": [
+      "c#",
+      "selenium"
+    ]
+  },
+  {
+    "courses": "cp",
+    "phone": "432225543",
+    "name": "vinayy",
+    "location": "hyd",
+    "id": 5
+  },
+  {
+    "courses": "cp",
+    "phone": "432225543",
+    "name": "vinayy",
+    "location": "hyd",
+    "id": 6
+  },
+  {
+    "courses": "cp",
+    "phone": "432225543",
+    "name": "vinayy",
+    "location": "hyd",
+    "id": 7
+  },
+  {
+    "courses": "cp",
+    "phone": "432225543",
+    "name": "vinayy",
+    "location": "hyd",
+    "id": 8
+  },
+  {
+    "name": "ger",
+    "location": "ind",
+    "id": "9"
+  },
+  {
+    "name": "pond",
+    "location": "jap",
+    "id": "10"
+  },
+  {
+    "name": "vick",
+    "location": "germany",
+    "id": "11.0"
+  },
+  {
+    "name": "rock",
+    "location": "poland",
+    "id": "12.0"
+  },
+  {
+    "name": "ravi",
+    "location": "germany",
+    "id": "13.0"
+  },
+  {
+    "name": "raju",
+    "location": "poland",
+    "id": "14.0"
+  }
+]
+2021-04-06 11:41:15,705  INFO [main] TC_002_basistests:33 - ***********verifying response time***********
+2021-04-06 11:41:15,707  INFO [main] TC_002_basistests:35 - response time is1081
+2021-04-06 11:41:15,709  INFO [main] TC_002_basistests:24 - ***********getting status code***********
+2021-04-06 11:41:15,709  INFO [main] TC_002_basistests:26 - status code is200
+2021-04-06 11:41:15,712  INFO [main] TC_002_basistests:65 - ****************finished getting all users********************
+2021-04-06 11:41:15,817 DEBUG [main] cache:45 - Couldn't find template in cache for "v3html/v3-html-index.ftl"("en", UTF-8, parsed); will try to load it.
+2021-04-06 11:41:15,819 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("v3html/v3-html-index_en.ftl"): Not found
+2021-04-06 11:41:15,821 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("v3html/v3-html-index.ftl"): Found
+2021-04-06 11:41:15,822 DEBUG [main] cache:45 - Loading template for "v3html/v3-html-index.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/VinayKumarDeva/.m2/repository/com/aventstack/extentreports/4.0.6/extentreports-4.0.6.jar!/com/aventstack/extentreports/view/v3html/v3-html-index.ftl"
+2021-04-06 11:41:16,065 DEBUG [main] cache:45 - Couldn't find template in cache for "v3html/v3-html-head.ftl"("en", UTF-8, parsed); will try to load it.
+2021-04-06 11:41:16,068 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("v3html/v3-html-head_en.ftl"): Not found
+2021-04-06 11:41:16,070 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("v3html/v3-html-head.ftl"): Found
+2021-04-06 11:41:16,071 DEBUG [main] cache:45 - Loading template for "v3html/v3-html-head.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/VinayKumarDeva/.m2/repository/com/aventstack/extentreports/4.0.6/extentreports-4.0.6.jar!/com/aventstack/extentreports/view/v3html/v3-html-head.ftl"
+2021-04-06 11:41:16,091 DEBUG [main] cache:45 - Couldn't find template in cache for "v3html/v3-html-nav.ftl"("en", UTF-8, parsed); will try to load it.
+2021-04-06 11:41:16,093 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("v3html/v3-html-nav_en.ftl"): Not found
+2021-04-06 11:41:16,094 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("v3html/v3-html-nav.ftl"): Found
+2021-04-06 11:41:16,094 DEBUG [main] cache:45 - Loading template for "v3html/v3-html-nav.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/VinayKumarDeva/.m2/repository/com/aventstack/extentreports/4.0.6/extentreports-4.0.6.jar!/com/aventstack/extentreports/view/v3html/v3-html-nav.ftl"
+2021-04-06 11:41:16,110 DEBUG [main] cache:45 - Couldn't find template in cache for "v3html/test-view/v3-html-test-view.ftl"("en", UTF-8, parsed); will try to load it.
+2021-04-06 11:41:16,111 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("v3html/test-view/v3-html-test-view_en.ftl"): Not found
+2021-04-06 11:41:16,112 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("v3html/test-view/v3-html-test-view.ftl"): Found
+2021-04-06 11:41:16,113 DEBUG [main] cache:45 - Loading template for "v3html/test-view/v3-html-test-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/VinayKumarDeva/.m2/repository/com/aventstack/extentreports/4.0.6/extentreports-4.0.6.jar!/com/aventstack/extentreports/view/v3html/test-view/v3-html-test-view.ftl"
+2021-04-06 11:41:16,137 DEBUG [main] cache:45 - Couldn't find template in cache for "v3html/test-view/v3-html-test-view-charts.ftl"("en", UTF-8, parsed); will try to load it.
+2021-04-06 11:41:16,138 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("v3html/test-view/v3-html-test-view-charts_en.ftl"): Not found
+2021-04-06 11:41:16,140 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("v3html/test-view/v3-html-test-view-charts.ftl"): Found
+2021-04-06 11:41:16,141 DEBUG [main] cache:45 - Loading template for "v3html/test-view/v3-html-test-view-charts.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/VinayKumarDeva/.m2/repository/com/aventstack/extentreports/4.0.6/extentreports-4.0.6.jar!/com/aventstack/extentreports/view/v3html/test-view/v3-html-test-view-charts.ftl"
+2021-04-06 11:41:16,166 DEBUG [main] cache:45 - Couldn't find template in cache for "v3html/test-view/v3-html-standard.ftl"("en", UTF-8, parsed); will try to load it.
+2021-04-06 11:41:16,167 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("v3html/test-view/v3-html-standard_en.ftl"): Not found
+2021-04-06 11:41:16,172 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("v3html/test-view/v3-html-standard.ftl"): Found
+2021-04-06 11:41:16,173 DEBUG [main] cache:45 - Loading template for "v3html/test-view/v3-html-standard.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/VinayKumarDeva/.m2/repository/com/aventstack/extentreports/4.0.6/extentreports-4.0.6.jar!/com/aventstack/extentreports/view/v3html/test-view/v3-html-standard.ftl"
+2021-04-06 11:41:16,264 DEBUG [main] cache:45 - "v3html/test-view/v3-html-standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
+2021-04-06 11:41:16,267 DEBUG [main] cache:45 - "v3html/test-view/v3-html-standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
+2021-04-06 11:41:16,277 DEBUG [main] cache:45 - "v3html/test-view/v3-html-standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
+2021-04-06 11:41:16,283 DEBUG [main] cache:45 - Couldn't find template in cache for "v3html/category-view/v3-html-category-view.ftl"("en", UTF-8, parsed); will try to load it.
+2021-04-06 11:41:16,284 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("v3html/category-view/v3-html-category-view_en.ftl"): Not found
+2021-04-06 11:41:16,294 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("v3html/category-view/v3-html-category-view.ftl"): Found
+2021-04-06 11:41:16,300 DEBUG [main] cache:45 - Loading template for "v3html/category-view/v3-html-category-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/VinayKumarDeva/.m2/repository/com/aventstack/extentreports/4.0.6/extentreports-4.0.6.jar!/com/aventstack/extentreports/view/v3html/category-view/v3-html-category-view.ftl"
+2021-04-06 11:41:16,309 DEBUG [main] cache:45 - Couldn't find template in cache for "v3html/exception-view/v3-html-exception-view.ftl"("en", UTF-8, parsed); will try to load it.
+2021-04-06 11:41:16,311 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("v3html/exception-view/v3-html-exception-view_en.ftl"): Not found
+2021-04-06 11:41:16,312 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("v3html/exception-view/v3-html-exception-view.ftl"): Found
+2021-04-06 11:41:16,314 DEBUG [main] cache:45 - Loading template for "v3html/exception-view/v3-html-exception-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/VinayKumarDeva/.m2/repository/com/aventstack/extentreports/4.0.6/extentreports-4.0.6.jar!/com/aventstack/extentreports/view/v3html/exception-view/v3-html-exception-view.ftl"
+2021-04-06 11:41:16,324 DEBUG [main] cache:45 - Couldn't find template in cache for "v3html/author-view/v3-html-author-view.ftl"("en", UTF-8, parsed); will try to load it.
+2021-04-06 11:41:16,327 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("v3html/author-view/v3-html-author-view_en.ftl"): Not found
+2021-04-06 11:41:16,329 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("v3html/author-view/v3-html-author-view.ftl"): Found
+2021-04-06 11:41:16,331 DEBUG [main] cache:45 - Loading template for "v3html/author-view/v3-html-author-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/VinayKumarDeva/.m2/repository/com/aventstack/extentreports/4.0.6/extentreports-4.0.6.jar!/com/aventstack/extentreports/view/v3html/author-view/v3-html-author-view.ftl"
+2021-04-06 11:41:16,338 DEBUG [main] cache:45 - Couldn't find template in cache for "v3html/dashboard-view/v3-html-dashboard-view.ftl"("en", UTF-8, parsed); will try to load it.
+2021-04-06 11:41:16,338 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("v3html/dashboard-view/v3-html-dashboard-view_en.ftl"): Not found
+2021-04-06 11:41:16,341 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("v3html/dashboard-view/v3-html-dashboard-view.ftl"): Found
+2021-04-06 11:41:16,341 DEBUG [main] cache:45 - Loading template for "v3html/dashboard-view/v3-html-dashboard-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/VinayKumarDeva/.m2/repository/com/aventstack/extentreports/4.0.6/extentreports-4.0.6.jar!/com/aventstack/extentreports/view/v3html/dashboard-view/v3-html-dashboard-view.ftl"
+2021-04-06 11:41:16,358 DEBUG [main] cache:45 - Couldn't find template in cache for "v3html/logs-view/v3-html-testrunner-logs-view.ftl"("en", UTF-8, parsed); will try to load it.
+2021-04-06 11:41:16,360 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("v3html/logs-view/v3-html-testrunner-logs-view_en.ftl"): Not found
+2021-04-06 11:41:16,361 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("v3html/logs-view/v3-html-testrunner-logs-view.ftl"): Found
+2021-04-06 11:41:16,362 DEBUG [main] cache:45 - Loading template for "v3html/logs-view/v3-html-testrunner-logs-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/VinayKumarDeva/.m2/repository/com/aventstack/extentreports/4.0.6/extentreports-4.0.6.jar!/com/aventstack/extentreports/view/v3html/logs-view/v3-html-testrunner-logs-view.ftl"
